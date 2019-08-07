@@ -1,3 +1,4 @@
+<?php 
 $dirty = false;
 foreach(headers_list() as $header) {
     if($dirty) continue; // I already know it needs to be cleaned
